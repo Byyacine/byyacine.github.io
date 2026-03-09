@@ -1,13 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yacine Bengana</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #fafafa;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+    }
+
+    header {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0 0 8px 0;
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 8px;
+    }
+
+    .affiliation {
+      color: #666;
+      margin-bottom: 18px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin-right: 18px;
+      text-decoration: none;
+      color: #0056b3;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 36px;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      margin-bottom: 12px;
+      border-bottom: 1px solid #e3e3e3;
+      padding-bottom: 6px;
+    }
+
+    p {
+      margin: 0 0 14px 0;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 14px;
+      margin-bottom: 8px;
+      text-decoration: none;
+      color: #0056b3;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    .note {
+      color: #666;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      color: #666;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      nav a {
+        display: inline-block;
+        margin-bottom: 8px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Yacine Bengana</h1>
-  <p>Postdoctoral researcher in fluid mechanics.</p>
-  <p>Personal academic website under construction.</p>
+  <div class="container">
+    <header>
+      <h1>Yacine Bengana</h1>
+      <div class="subtitle">Postdoctoral Researcher in Fluid Mechanics</div>
+      <div class="affiliation">Department of Aeronautics, Imperial College London</div>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#software">Software</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I am a postdoctoral researcher in numerical fluid mechanics. My work focuses on
+        data assimilation, reduced-order modelling, uncertainty quantification, and
+        nonlinear dynamical systems, with applications to fluid flows.
+      </p>
+      <p>
+        This website will gradually gather research outputs, publications, software,
+        and selected projects.
+      </p>
+
+      <div class="links">
+        <a href="https://github.com/Byyacine" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">ORCID</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">CV</a>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2>Research interests</h2>
+      <ul>
+        <li>Data assimilation for nonlinear and high-dimensional systems</li>
+        <li>Reduced-order modelling and delay-coordinate methods</li>
+        <li>Flow stability, transition, and turbulence</li>
+        <li>Scientific computing and numerical simulation</li>
+        <li>Uncertainty quantification and estimation from partial observations</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <p class="note">
+        A full publication list will be added here soon.
+      </p>
+    </section>
+
+    <section id="software">
+      <h2>Software and code</h2>
+      <p>
+        Selected research code and software projects will be listed here, including
+        numerical tools for fluid mechanics, reduced-order modelling, and data assimilation.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/Byyacine" target="_blank" rel="noopener noreferrer">github.com/Byyacine</a></p>
+    </section>
+
+    <footer>
+      <p>Last updated: March 2026</p>
+    </footer>
+  </div>
 </body>
 </html>
