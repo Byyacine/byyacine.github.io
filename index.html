@@ -14,7 +14,7 @@
     }
 
     .container {
-      max-width: 900px;
+      max-width: 950px;
       margin: 0 auto;
       padding: 40px 20px 60px;
     }
@@ -68,6 +68,13 @@
       padding-bottom: 6px;
     }
 
+    h3 {
+      font-size: 1.05rem;
+      margin-top: 20px;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
     p {
       margin: 0 0 14px 0;
     }
@@ -78,7 +85,7 @@
     }
 
     li {
-      margin-bottom: 8px;
+      margin-bottom: 10px;
     }
 
     .links a {
@@ -91,6 +98,15 @@
 
     .links a:hover {
       text-decoration: underline;
+    }
+
+    .pub-list li,
+    .talk-list li {
+      margin-bottom: 12px;
+    }
+
+    .pub-title {
+      font-style: italic;
     }
 
     .note {
@@ -129,7 +145,8 @@
         <a href="#about">About</a>
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
-        <a href="#software">Software</a>
+        <a href="#talks">Talks</a>
+        <a href="#service">Service</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -142,8 +159,7 @@
         nonlinear dynamical systems, with applications to fluid flows.
       </p>
       <p>
-        This website will gradually gather research outputs, publications, software,
-        and selected projects.
+        This website gathers research outputs, publications, software, and selected projects.
       </p>
 
       <div class="links">
@@ -167,18 +183,122 @@
     </section>
 
     <section id="publications">
-      <h2>Publications</h2>
+      <h2>Selected publications</h2>
+
+      <h3>Articles</h3>
+      <ol class="pub-list">
+        <li>
+          Z. Chua Khoo, D. Cooper, Y. Bengana &amp; Y. Hwang,
+          <span class="pub-title">Data-driven linearization of turbulence</span>,
+          Center for Turbulence Research Summer Program Proceedings (2024).
+          <a href="https://web.stanford.edu/group/ctr/ctrsp24/ii03_CHUA.pdf" target="_blank" rel="noopener noreferrer">Link</a>
+        </li>
+
+        <li>
+          J. Lorente-Mac&iacute;as, Y. Bengana &amp; Y. Hwang,
+          <span class="pub-title">Shape optimisation for a stochastic two-dimensional cylinder wake using ensemble variation</span>,
+          Journal of Fluid Mechanics 959, A7 (2023).
+          <a href="https://doi.org/10.1017/jfm.2023.122" target="_blank" rel="noopener noreferrer">DOI</a>
+        </li>
+
+        <li>
+          Y. Bengana, Q. Yang, G. Tu &amp; Y. Hwang,
+          <span class="pub-title">Exact coherent states in plane Couette flow under spanwise wall oscillation</span>,
+          Journal of Fluid Mechanics 947, A2 (2022).
+          <a href="https://doi.org/10.1017/jfm.2022.606" target="_blank" rel="noopener noreferrer">DOI</a>
+        </li>
+
+        <li>
+          P. Doohan, Y. Bengana, Q. Yang, A. P. Willis &amp; Y. Hwang,
+          <span class="pub-title">The state space and travelling-wave solutions in two-scale wall-bounded turbulence</span>,
+          Journal of Fluid Mechanics 947, A41 (2022).
+          <a href="https://www.doi.org/10.1017/jfm.2022.686" target="_blank" rel="noopener noreferrer">DOI</a>
+        </li>
+
+        <li>
+          Y. Bengana &amp; L. S. Tuckerman,
+          <span class="pub-title">Frequency prediction from exact or self-consistent mean flows</span>,
+          Physical Review Fluids 6, 063901 (2021).
+          <a href="https://doi.org/10.1103/PhysRevFluids.6.063901" target="_blank" rel="noopener noreferrer">DOI</a>
+        </li>
+
+        <li>
+          Y. Bengana, J.-C. Loiseau, J.-C. Robinet &amp; L. S. Tuckerman,
+          <span class="pub-title">Bifurcation analysis and frequency matching in shear-driven cavity flow</span>,
+          Journal of Fluid Mechanics 875, 725-757 (2019).
+          <a href="https://doi.org/10.1017/jfm.2019.422" target="_blank" rel="noopener noreferrer">DOI</a>
+        </li>
+
+        <li>
+          Y. Bengana &amp; L. S. Tuckerman,
+          <span class="pub-title">Spirals and ribbons in counter-rotating Taylor-Couette flow: Frequencies from mean flows and heteroclinic orbits</span>,
+          Physical Review Fluids 4, 044402 (2019).
+          <a href="https://doi.org/10.1103/PhysRevFluids.4.044402" target="_blank" rel="noopener noreferrer">DOI</a>
+        </li>
+
+        <li>
+          Y. Hwang &amp; Y. Bengana,
+          <span class="pub-title">Self-sustaining process of minimal attached eddies in turbulent channel flow</span>,
+          Journal of Fluid Mechanics 795, 708-738 (2016).
+          <a href="https://doi.org/10.1017/jfm.2016.226" target="_blank" rel="noopener noreferrer">DOI</a>
+        </li>
+
+        <li>
+          Y. Bengana &amp; G. Papadakis,
+          <span class="pub-title">Ensemble Kalman filter for turbulent flow reconstruction</span>,
+          Journal of Fluid Mechanics, manuscript in final preparation.
+        </li>
+
+        <li>
+          Y. Bengana &amp; G. Papadakis,
+          <span class="pub-title">Delay-embedded linear models for Kalman-filter reconstruction of chaotic wake dynamics</span>,
+          Journal of Fluid Mechanics, manuscript in final preparation.
+        </li>
+      </ol>
+    </section>
+
+    <section id="talks">
+      <h2>Selected conferences and talks</h2>
+      <ol class="talk-list">
+        <li>
+          Y. Bengana,
+          <span class="pub-title">Shape Optimisation Under Stochastic Perturbations and Turbulence Stabilisation Using Ensemble Variation</span>,
+          invited speaker, LISN, France, 17 October 2024.
+        </li>
+
+        <li>
+          Y. Bengana, R. Muraleetharan &amp; Y. Hwang,
+          <span class="pub-title">The amplitude dependence of the mean velocity distortion for turbulence stabilisation in channel flow</span>,
+          APS DFD, Washington, D.C., USA, 19-21 November 2023.
+        </li>
+
+        <li>
+          Y. Bengana, J. Lorente-Mac&iacute;as &amp; Y. Hwang,
+          <span class="pub-title">Shape optimisation for a stochastic two-dimensional cylinder wake using ensemble variation</span>,
+          APS DFD, Indiana, USA, 20-22 November 2022.
+        </li>
+
+        <li>
+          Y. Bengana, Q. Yang &amp; Y. Hwang,
+          <span class="pub-title">Wall-bounded turbulent flow and equilibrium states with spanwise wall oscillation in plane Couette flow</span>,
+          EFMC14, Athens, Greece, 13-16 September 2022.
+        </li>
+
+        <li>
+          Y. Bengana &amp; L. S. Tuckerman,
+          <span class="pub-title">Spirals and ribbons: frequency prediction from mean flows and a new heteroclinic orbits</span>,
+          APS DFD, Atlanta, USA, 19-21 November 2018.
+        </li>
+      </ol>
+
       <p class="note">
-        A full publication list will be added here soon.
+        A fuller list of conference presentations can be added on a dedicated page later.
       </p>
     </section>
 
-    <section id="software">
-      <h2>Software and code</h2>
-      <p>
-        Selected research code and software projects will be listed here, including
-        numerical tools for fluid mechanics, reduced-order modelling, and data assimilation.
-      </p>
+    <section id="service">
+      <h2>Academic service</h2>
+      <p>Peer reviewer for <span class="pub-title">Journal of Fluid Mechanics</span>, Cambridge University Press.</p>
     </section>
 
     <section id="contact">
